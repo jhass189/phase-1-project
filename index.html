@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="./src/data.js"></script>
+  <script defer src="./src/index.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Goat</title>
+</head>
+
+<body>
+  <header id="menu">
+    <h1>Who is the GOAT?</h1>
+  </header>
+  <div class="container">
+    <ul id="athlete-list" class="cards">
+      <!--Athletes Here-->
+    </ul>
+    <h2>Think it's someone else? Fill in below!</h2>
+    <!--Form for user submitted suggestion-->
+    <form id="athlete-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" />
+      <label for="name">Image URL</label>
+      <input type="text" id="image_url" name="image_url" />
+      <label for="description">Description</label>
+      <textarea id="description" name="description"></textarea>
+      <button type="id">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
